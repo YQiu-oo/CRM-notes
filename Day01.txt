@@ -1,0 +1,17 @@
+Day01:
+
+Deployiny my crm:
+
+New to learn: 
+1.The structures of the program: check the picture in this folder. Rem: UserDao , UserService ,  and UserImpl are necessary.
+
+2.The first step of CRM is build up our login page and check whether the username and password are correct. 
+
+We use select * from tbl_user where loginAct = ? and password = ? to get the User object.
+
+if user object is not equal to null ,then we have the correct name and password, but in order to avoid any hack attack, we also need to check the allowIP, expiretime, and email. 
+
+
+
+
+ 
